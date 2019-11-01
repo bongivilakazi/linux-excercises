@@ -1,0 +1,170 @@
+Name:Sibongile Vilakazi
+Department: Cohort 17 web Development
+Date:29 October 2019
+Linux tasks
+
+**************************************************
+Starting directory:/home/recruit
+Task 1 :Basic_Task
+1.ls command and enter (screenshot attached below)
+ls meaning:this command lists all the files and dirctories.files are written in white and directories in blue.
+2.pwd command and enter(screenshot ATTACHED BELOW)
+pwd meaning:prints the name of the current or working directory
+3.mkdir workspace the cd workspace(screenshot) change directories
+4.ls typed in and then enter(screenshot attached below)
+
+5.Touch README.md
+6.cp README.md CHANGELOG(screen shot attached)
+
+
+***********************************************************************************************
+Task 2: Absolute and Relative Paths
+
+The starting  is /home/recruit.
+
+1.Command 1: cd ..        //Puts us in the home directory.
+2.Command 2: touch exercise.txt  
+3.Command 3: mv exercise.txt /tmp     //Moves file to /tmp
+4.Command 4: rm /tmp/exercise.txt       //deletes text file without having to change directories (using absolute pathname)
+************************************************************************
+Task 3: Cat Commands
+
+Working from the /home directory.
+
+# 1: touch umuzi.txt recruit.txt cohort.txt
+# 2: manually add content to each file.
+# 3: cat *.txt          // Displays content in all .txt files
+# 4: cat *.txt > summary.txt
+# 5: echo "add this content" >> summary.txt
+***************************************************************************************************************************
+Task 4: The locate command
+
+# 1: find / -name umuzi*
+# 2: find / -name umuzi* > search_result.txt
+********************************************************************************************************************************
+Task 5:
+
+1.Command 1: mkdir myDocuments
+2.Command 2: cd myDocuments 
+3.Command 3: touch pad.txt
+4.Command 4: cd ..
+5.Command 5: cd Desktop
+6.Command 6: mkdir work
+7.Command 7: cd work
+8.Command 8: cp /home/recruit/Documents/pad.txt ./pad_copy.txt
+9.Command 9: locate updatedb
+10.Command 10: cd -
+11.Command 11: find /home/recruit/Desktop/ -name pad*
+*****************************************************************************************************************************
+
+Task 6:
+
+# 1: find / -name '*.pdf'
+// For "permission denied" error please first log in as a super user
+# 2 - Command 1: sudo su and then type password
+    - Command 2: find . -iname '*.pdf' -exec cp {} work \;
+# 3: find / -mtime -1 -print
+*********************************************************************************************************************************8
+Task 7: Text editor
+
+# 1: nano my_bio.txt
+# 2: Ctrl + O and then click Enter. Ctrl + X
+# 3: mv my_bio.txt /home/recruit/my_files/ 
+******************************************************************************************************************************
+*********************************************************************************************************************
+  mv CHANGELOG.md
+ 1764  mv CHANGELOG.md recruit
+ 1765  ls
+ 1766  cd recruit
+ 1767  man
+ 1768  man -e
+ 1769  man more
+ 1770  pwd
+ 1771  touch umuzi.md recruits.md cohort.md
+ 1772  touch umuzi.md
+ 1773  touch recruits.md
+ 1774  touch cohort.md
+ 1775  touch umuzi.md
+ 1776  .
+ 1777  nano
+ 1778  root # nano my_bio.md
+ 1779  nano my_bio.md
+ 1780  ls
+ 1781  clear
+ 1782  nano my_bio.md
+ 1783  pwd
+ 1784  nano my_bio.md
+ 1785  ls
+ 1786  history
+ 1787  clear
+ 1788  mkdir my_files
+ 1789  ls
+ 1790  mkdir my_file
+ 1791  ls
+ 1792  mv my_bio.md my_file
+ 1793  pwd my_bio.md
+ 1794  ls
+ 1795  nano my_bio.md
+ 1796  ls
+ 1797  mv my_bio.md my_files
+ 1798  pwd
+ 1799  mv my_bio.md my_files.md
+ 1800  pwd
+ 1801  ls
+ 1802  mv nano.save my_files
+ 1803  pwd
+ 1804  pwd nano.save
+ 1805  cd my_files
+ 1806  ls
+ 1807  cd ../
+ 1808  ls
+ 1809  cd my_files
+ 1810  ls
+ 1811  clear
+ 1812  find ~* .pdf
+ 1813  */*.pdf
+ 1814  find '.pdf'
+ 1815  pwd
+ 1816  ls
+ 1817  cd ..
+ 1818  ls
+ 1819  cd ../
+ 1820  ls
+ 1821  cd Documents/
+ 1822  find '.pdf'
+ 1823  find .pdf"
+ 1824  find '.pdf'
+ 1825  locate .pdf
+ 1826  locate pdf
+ 1827  locate pdf > search_results.md
+ 1828  ls
+ 1829  cat search_results.md
+ 1830  pwd
+ 1831  ls
+ 1832  cd Documents/
+ 1833  locate .pdf
+ 1834  cd -
+ 1835  cd ..
+ 1836  locate .pdf
+ 1837  history
+ 1838  find . mtime 
+ 1839  find . -mtime -1
+ 1840  hiatory
+ 1841  history
+ 1842  ls
+ 1843  pwd
+ 1844  mkdir workspace
+ 1845  ls
+ 1846  mkdir workspaces
+ 1847  ls
+ 1848  cd
+ 1849  ls
+ 1850  cd workspace.md
+ 1851  ls
+ 1852  touch README.md
+ 1853  cp README.md 
+ 1854  history
+
+
+
+
